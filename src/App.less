@@ -6,7 +6,7 @@ body {
 }
 
 .app-title {
-  font-family: "FF Oxide Solid";
+  font-family: 'DM Serif Text', serif;
   font-style: normal;
   font-weight: 300;
   letter-spacing: 0px;
@@ -19,6 +19,7 @@ body {
 
 .ant-layout-header {
   align-items: center;
+  text-transform: uppercase;
   height: 42px;
   padding: 0 20px;
   color: rgba(255, 255, 255, 0.85);
@@ -35,8 +36,9 @@ body {
   width: 100%;
   top: 0px;
   position: relative;
-  padding: 1rem;
+  padding: 4rem;
   z-index: 2;
+  background-color: rgba(0, 0, 0, 0.548);
 
   .ant-menu-horizontal {
     border-bottom-color: transparent;
@@ -130,7 +132,10 @@ em {
   display: flex;
   overflow: auto;
 }
-
+.ant-layout {
+  background-color: transparent;
+  
+}
 .flexColumn {
   display: flex;
   flex-direction: column;

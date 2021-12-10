@@ -16,7 +16,7 @@ export const AppBar = (props: { left?: JSX.Element; right?: JSX.Element }) => {
       <WalletMultiButton type="primary" />
       <div style={{ margin: 5 }} />
       {connected ? <WalletDisconnectButton type="ghost" /> : null}
-      <Popover
+      {/* <Popover
         placement="topRight"
         title={LABELS.SETTINGS_TOOLTIP}
         content={<Settings />}
@@ -28,7 +28,7 @@ export const AppBar = (props: { left?: JSX.Element; right?: JSX.Element }) => {
           type="text"
           icon={<SettingOutlined />}
         />
-      </Popover>
+      </Popover> */}
       {props.right}
     </div>
   );

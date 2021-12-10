@@ -17,7 +17,7 @@ export const AppLayout = React.memo(({ children }) => {
           <Header className="App-Bar">
             <Link to="/">
               <div className="app-title">
-                <h2>Solana DAPP</h2>
+              <img style={{ margin:  5 }} src="logo_tr.png" alt="Logo" width="200px"/>
               </div>
             </Link>
             <AppBar />
